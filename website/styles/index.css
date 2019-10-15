@@ -1,0 +1,20 @@
+.content{}
+.head{padding: 35px 0 25px 0;}
+.head > .logo{}
+.head > .search{width:550px;border: 2px solid #e2231a;overflow: hidden;margin:0 auto;}
+.head > .search > #q{height: 36px;border: 0px;width: 455px;text-indent: 20px;vertical-align: top;float: left;}
+.head > .search > #search_btn{height: 36px;padding:0 30px;color:white;background-color: #e2231a;border: 0px;float: right;}
+
+
+.banner{background-color: #e2231a;color: white;overflow: hidden;}
+.banner > .ban{overflow: hidden;}
+.banner > .ban > .zhutui{float: left;margin:0 20px;padding: 10px 0;font-weight: bold;}
+
+
+.catagory > .lunbo{width: 600px;height: 400px;display: flex;overflow: hidden;flex-direction: row;flex-wrap: nowrap}
+.catagory > .lunbo > .imgitem{}
+
+
+.float{position: absolute;bottom: 30px;right: 20px;}
+.float > .item{border: 1px solid gray; padding: 5px;}
+
