@@ -1,20 +1,26 @@
 .content{}
-.head{padding: 35px 0 25px 0;}
-.head > .logo{}
-.head > .search{width:550px;border: 2px solid #e2231a;overflow: hidden;margin:0 auto;}
-.head > .search > #q{height: 36px;border: 0px;width: 455px;text-indent: 20px;vertical-align: top;float: left;}
-.head > .search > #search_btn{height: 36px;padding:0 30px;color:white;background-color: #e2231a;border: 0px;float: right;}
 
+.head{background-color: white;box-shadow: 1px 1px 2px #cdc8c8;height: 60px;position: fixed;width: 100%;top: 0;left: 0;right: 0;z-index: 999;}
+.head > .warp{overflow: hidden;}
+.head > .warp >a {float: left;line-height: 60px;margin-right: 30px;text-decoration: none;color:#555555; }
+.head > .warp >li{float: left;margin-left: 20px;padding-left: 10px;padding-right: 10px;padding-top: 20px;padding-bottom: 20px;color: #555555;font-weight: bold;}
+.head > .warp >li:hover{cursor: pointer;}
 
-.banner{background-color: #e2231a;color: white;overflow: hidden;}
-.banner > .ban{overflow: hidden;}
-.banner > .ban > .zhutui{float: left;margin:0 20px;padding: 10px 0;font-weight: bold;}
+.page{background-color: #F3F3F3;padding-bottom: 20px;position: relative;top: 60px;}
+.page > .warp{overflow: hidden;padding-left: 10px;padding-right: 10px;}
+.page > .warp > .left{float: left;width: 72%}
+.page > .warp > .right{float: right;padding-top: 20px;margin-left: 20px;width: 25%}
+.page > .warp > .left > .new{}
+.page > .warp > .left > .new > .item{background-color: white;padding: 15px 25px 15px 25px;margin-top: 20px;}
+.item:hover{box-shadow: 3px 3px 6px #b5abab;}
+.page > .warp > .left > .new > .item > .title{font-size: 16px;padding:8px 5px 13px 15px;border-bottom: 1px solid lightgray;color:#555555; }
+.page > .warp > .left > .new > .item > .imgs{padding:8px 10px 10px 10px;margin-top: 8px;}
+.page > .warp > .left > .new > .item > .imgs > img{width: 130px;height: 130px;padding: 8px 30px 8px 8px;}
+.page > .warp > .right > .item{background-color: white;}
 
-
-.catagory > .lunbo{width: 600px;height: 400px;display: flex;overflow: hidden;flex-direction: row;flex-wrap: nowrap}
-.catagory > .lunbo > .imgitem{}
-
-
-.float{position: absolute;bottom: 30px;right: 20px;}
-.float > .item{border: 1px solid gray; padding: 5px;}
+.foot{margin-top: 60px;}
+.foot > .beian{text-align: center;}
+.foot > .warp > .beian{text-align: center;padding-top: 10px;padding-bottom: 10px;border-top:1px solid #dedada;}
+.foot > .warp > .beian > img{vertical-align: bottom;margin-right: 10px;}
+.foot > .warp > .beian > a{margin-right: 15px;text-decoration: none;color:#555555;}
 
