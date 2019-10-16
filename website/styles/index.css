@@ -1,26 +1,74 @@
-.content{}
+@import url('style.css');
+@media screen and (min-width: 1200px) {
+	span{display: block;}
+  	.warp{width: 1200px;margin: 0 auto;}
 
-.head{background-color: white;box-shadow: 1px 1px 2px #cdc8c8;height: 60px;position: fixed;width: 100%;top: 0;left: 0;right: 0;z-index: 999;}
-.head > .warp{overflow: hidden;}
-.head > .warp >a {float: left;line-height: 60px;margin-right: 30px;text-decoration: none;color:#555555; }
-.head > .warp >li{float: left;margin-left: 20px;padding-left: 10px;padding-right: 10px;padding-top: 20px;padding-bottom: 20px;color: #555555;font-weight: bold;}
-.head > .warp >li:hover{cursor: pointer;}
+	.head{background-color: white;box-shadow: 1px 1px 2px #cdc8c8;height: 60px;position: fixed;width: 100%;top: 0;left: 0;right: 0;z-index: 999;}
+	.head > .warp{overflow: hidden;}
+	.head > .warp >a {float: left;line-height: 60px;margin-right: 30px;text-decoration: none;color:#555555; }
+	.head > .warp >li{float: left;margin-left: 20px;padding-left: 10px;padding-right: 10px;padding-top: 20px;padding-bottom: 20px;color: #555555;font-weight: bold;}
+	.head > .warp >li:hover{cursor: pointer;}
 
-.page{background-color: #F3F3F3;padding-bottom: 20px;position: relative;top: 60px;}
-.page > .warp{overflow: hidden;padding-left: 10px;padding-right: 10px;}
-.page > .warp > .left{float: left;width: 72%}
-.page > .warp > .right{float: right;padding-top: 20px;margin-left: 20px;width: 25%}
-.page > .warp > .left > .new{}
-.page > .warp > .left > .new > .item{background-color: white;padding: 15px 25px 15px 25px;margin-top: 20px;}
-.item:hover{box-shadow: 3px 3px 6px #b5abab;}
-.page > .warp > .left > .new > .item > .title{font-size: 16px;padding:8px 5px 13px 15px;border-bottom: 1px solid lightgray;color:#555555; }
-.page > .warp > .left > .new > .item > .imgs{padding:8px 10px 10px 10px;margin-top: 8px;}
-.page > .warp > .left > .new > .item > .imgs > img{width: 130px;height: 130px;padding: 8px 30px 8px 8px;}
-.page > .warp > .right > .item{background-color: white;}
+	.page{background-color: #F3F3F3;padding-bottom: 20px;position: relative;top: 60px;}
+	.page > .warp{overflow: hidden;padding-left: 10px;padding-right: 10px;}
+	.page > .warp > .left{float: left;width: 72%}
+	.page > .warp > .right{float: right;padding-top: 20px;margin-left: 20px;width: 25%}
+	.page > .warp > .left > .new{}
+	.page > .warp > .left > .new > .item{background-color: white;padding: 15px 25px 15px 25px;margin-top: 20px;}
+	.item:hover{box-shadow: 3px 3px 6px #b5abab;}
+	.page > .warp > .left > .new > .item > .title{font-size: 16px;padding:8px 5px 13px 15px;border-bottom: 1px solid lightgray;color:#555555; }
+	.page > .warp > .left > .new > .item > .imgs{padding:8px 10px 10px 10px;margin-top: 8px;}
+	.page > .warp > .left > .new > .item > .imgs > img{width: 130px;height: 130px;padding: 8px 30px 8px 8px;}
+	.page > .warp > .right > .item{background-color: white;}
 
-.foot{margin-top: 60px;}
-.foot > .beian{text-align: center;}
-.foot > .warp > .beian{text-align: center;padding-top: 10px;padding-bottom: 10px;border-top:1px solid #dedada;}
-.foot > .warp > .beian > img{vertical-align: bottom;margin-right: 10px;}
-.foot > .warp > .beian > a{margin-right: 15px;text-decoration: none;color:#555555;}
+	.foot{margin-top: 60px;}
+	.foot > .warp > .about{margin: 0 auto;padding: 10px 10px;overflow: hidden;border-bottom:1px solid #dedada;}
+	.foot > .warp > .about div{width: 32%;float: left;margin-left: 10px; margin-right:10px;margin-top: 5px;}
+	.foot > .warp > .about div > span{color: #555555;padding: 10px 0;}
+	.foot > .warp > .about div > p{color: #9b9b9b;font-size: 12px;padding-top: 3px;padding-bottom: 3px;}
+	.foot >  .warp > .links{margin: 0 auto;padding: 10px 10px;}
+	.foot >  .warp > .links > .link{margin-left: 10px; margin-right:10px;}
+	.foot >  .warp > .links > .link > p{color: #555555;padding: 10px 0;}
+	.foot >  .warp > .links > .link > div > a{text-decoration: none;color: #9b9b9b;font-size: 12px;padding-top: 3px;padding-bottom: 3px;}
+	.foot > .beian{text-align: center;}
+	.foot > .warp > .beian{text-align: center;padding-top: 10px;padding-bottom: 10px;border-top:1px solid #dedada;}
+	.foot > .warp > .beian > img{vertical-align: bottom;margin-right: 10px;}
+	.foot > .warp > .beian > a{margin-right: 15px;text-decoration: none;color:#555555;}
+	.foot > .warp > .beian > a:hover{text-decoration: underline;}
 
+	.snackbar{position: fixed;bottom: 50px;right: 20px;}
+	.snackbar > .top:hover{cursor: pointer;background-color:white;}
+	.snackbar > .top{background: white;width: 30px;height: 30px;padding: 10px;border-radius: 26px;}
+	.snackbar > .top > img{width: 30px;height: 30px;}
+}
+
+@media screen and (max-width: 1200px) {
+	.warp{width: 100%;margin: 0 auto;font-size: -7em;}
+	.head{background-color: white;box-shadow: 1px 1px 2px #cdc8c8;height: 60px;position: fixed;width: 100%;top: 0;left: 0;right: 0;z-index: 999;}
+	.head > .warp{overflow: hidden;}
+	.head > .warp >a {float: left;line-height: 60px;margin-right: 30px;margin-left:20px;text-decoration: none;color:#555555;font-weight: bold; }
+	.head > .warp >li{display: none;}
+
+	.page{background-color: #F3F3F3;padding-bottom: 20px;position: relative;top: 60px;}
+	.page > .warp{overflow: hidden;}
+	.page > .warp > .left{}
+	.page > .warp > .left > .new{}
+	.page > .warp > .left > .new > .item{background-color: white;padding: 5px 20px 10px 20px;margin-top: 10px;}
+	.item:hover{box-shadow: 3px 3px 6px #b5abab;}
+	.page > .warp > .left > .new > .item > .imgs{margin-top: 15px;}
+	.page > .warp > .left > .new > .item > .title{font-size: 16px;padding:5px 5px 10px 5px;border-bottom: 1px solid #EEEEEE;color:#555555; }
+	.page > .warp > .left > .new > .item > .imgs > img{ width:48%;height:130px;padding: 2px 2px 2px 2px;}
+
+	.foot{margin-top: 60px;font-size: 14px;}
+	.foot > .warp > .about{display: none;}
+	.foot > .warp > .links{display: none;}
+	.foot > .warp > .beian{text-align: center;}
+	.foot > .warp > .beian{text-align: center;padding-top: 10px;padding-bottom: 10px;border-top:1px solid #dedada;}
+	.foot > .warp > .beian > img{vertical-align: bottom;margin-right: 10px;}
+	.foot > .warp > .beian > a{margin-right: 15px;text-decoration: none;color:#555555;}
+
+	.snackbar{position: fixed;bottom: 50px;right: 10px;}
+	.snackbar > .top:hover{cursor: pointer;background-color:white;}
+	.snackbar > .top{background: white;width: 30px;height: 30px;padding: 10px;border-radius: 26px;}
+	.snackbar > .top > img{width: 30px;height: 30px;}
+}
