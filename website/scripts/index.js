@@ -22,4 +22,7 @@ function(){
 	this.search = function (){
 		alert("你好");
 	}
+	this.search = function (){
+		alert("你好");
+	}
 });
