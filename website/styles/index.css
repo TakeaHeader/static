@@ -26,7 +26,7 @@
 	.page > .warp > .right{float: right;padding-top: 20px;margin-left: 20px;width: 25%}
 	.page > .warp > .left > .new{}
 	.page > .warp > .left > .new > .item{background-color: white;padding: 15px 25px 15px 25px;margin-top: 20px;}
-	.item:hover{box-shadow: 3px 3px 6px #b5abab;}
+	.item:hover{box-shadow: 3px 3px 6px #b5abab;cursor: pointer;}
 	.page > .warp > .left > .new > .item > .title{font-size: 16px;padding:8px 5px 13px 15px;border-bottom: 1px solid lightgray;color:#555555; }
 	.page > .warp > .left > .new > .item > .imgs{padding:8px 10px 10px 10px;margin-top: 8px;}
 	.page > .warp > .left > .new > .item > .imgs > img{width: 130px;height: 130px;padding: 8px 30px 8px 8px;}
@@ -51,7 +51,6 @@
 	.snackbar > .top:hover{cursor: pointer;background-color:white;}
 	.snackbar > .top{background: white;width: 30px;height: 30px;padding: 10px;border-radius: 26px;}
 	.snackbar > .top > img{width: 30px;height: 30px;}
-
 
 	.snackbar > .feedback:hover{cursor: pointer;background-color:white;}
     .snackbar > .feedback{background: white;width: 30px;height: 30px;padding: 10px;border-radius: 26px;margin-bottom: 20px;}
