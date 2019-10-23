@@ -24,12 +24,16 @@
 	.page > .warp{overflow: hidden;padding-left: 10px;padding-right: 10px;}
 	.page > .warp > .left{float: left;width: 72%;margin-left: 12px;}
 	.page > .warp > .right{float: right;padding-top: 20px;margin-left: 20px;width: 25%}
-	.page > .warp > .left > .new{}
-	.page > .warp > .left > .new > .item{background-color: white;padding: 15px 25px 15px 25px;margin-top: 20px;}
+	.page > .warp > .left > .new{overflow: hidden;}
+	.page > .warp > .left > .new > .item{width:20%;float: left; background-color: white;padding: 5px;margin:20px 10px 8px;}
 	.item:hover{box-shadow: 3px 3px 6px #b5abab;}
-	.page > .warp > .left > .new > .item > .title{font-size: 16px;padding:8px 5px 13px 15px;border-bottom: 1px solid lightgray;color:#555555; }
-	.page > .warp > .left > .new > .item > .imgs{padding:8px 10px 10px 10px;margin-top: 8px;}
-	.page > .warp > .left > .new > .item > .imgs > img{width: 130px;height: 130px;padding: 8px 30px 8px 8px;}
+	.page > .warp > .left > .new > .item > img{width: 100%;max-height: 290px;}
+	.page > .warp > .left > .new > .item > .discrib{}
+	.page > .warp > .left > .new > .item > .discrib > .title{font-size: 13px;padding: 3px 0;color: #009ADB;}
+	.page > .warp > .left > .new > .item > .discrib > .info{overflow: hidden;font-size: 12px;color: #888888;padding: 3px 0;}
+	.page > .warp > .left > .new > .item > .discrib > .info > .date{float: left;}
+	.page > .warp > .left > .new > .item > .discrib > .info > .puber{float: right;}
+
 	.page > .warp > .right > .item{background-color: white;}
 
 	.foot{margin-top: 60px;}

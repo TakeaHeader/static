@@ -22,7 +22,7 @@ function(){
 	this.search = function (){
 		alert("你好");
 	}
-	this.search = function (){
-		alert("你好");
+	this.goTop = function (){
+		window.scrollTo(0,0);
 	}
 });
