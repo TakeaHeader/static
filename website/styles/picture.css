@@ -31,7 +31,6 @@
 	.page > .warp > .left > .new > .item > .discrib{}
 	.page > .warp > .left > .new > .item > .discrib > .title{font-size: 16px;text-align:center;padding: 10px 0;color: gray;}
 
-
 	.page > .warp > .right > .item{background-color: white;}
 
 	.foot{margin-top: 60px;}
@@ -53,7 +52,6 @@
 	.snackbar > .top:hover{cursor: pointer;background-color:white;}
 	.snackbar > .top{background: white;width: 30px;height: 30px;padding: 10px;border-radius: 26px;}
 	.snackbar > .top > img{width: 30px;height: 30px;}
-
 
 	.snackbar > .feedback:hover{cursor: pointer;background-color:white;}
     .snackbar > .feedback{background: white;width: 30px;height: 30px;padding: 10px;border-radius: 26px;margin-bottom: 20px;}
