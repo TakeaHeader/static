@@ -5,37 +5,72 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>二次元喵 - 树洞</title>
-    <link rel="icon" href="./imgs/tucao.png" type="image/x-icon"/>
-    <meta name="keywords" content="二次元,表情包,卡通,漫画,二次元表情" />
+    <title>二次元喵</title>
+    <link rel="icon" href="./imgs/erciyuan80.png" type="image/x-icon"/>
+    <meta name="keywords" content="二次元,二次元表情,表情包,头像,QQ头像,微信头像" />
     <meta name="description" content="" />
     <script type="text/javascript" src="./scripts/vue.js"></script>
-    <link rel="stylesheet" type="text/css" href="./styles/feedback.css"/> 
+    <link rel="stylesheet" type="text/css" href="./styles/common.css" />
+<!--     <link rel="stylesheet" type="text/css" href="./styles/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./styles/details.css"/> 
 </head>
 <body>
-
+	<div id="content">
 		<div class="head">
 			<div class="warp">
-				<a href="./" alt="二次元">二次元</a>
-				<li>表情表</li>
-				<li>插画</li>
-				<li>分类</li>
-				<li>主题</li>
-				<li>导航</li>
+				<a class="home" href="./" alt="二次元">
+					<div class="logo">
+						<img src="./imgs/erciyuan80.png"  alt="二次元喵" />
+					</div>
+					<span class="logotext">二次元喵</span>
+				</a>
+				<a href="./index.html" target="_blank" alt="最新表情" ><li>最新表情</li></a>
+				<a href="./head.html" target="_blank" alt="头像" ><li>头像</li></a>
+				<a href="./picture.html" target="_blank" alt="美图" ><li>美图</li>
+				<a href="https://support.qq.com/products/95514" target="_blank" alt="反馈" ><li>反馈</li></a>
+				<li class="hide">福利</li>
+
+				<div class="search">
+					<div class="searchbox">
+						<input type="text" name="query" id="qinput" />
+						<img src="./imgs/search.png" id="qbtn" />
+					</div>
+					<img id="search" alt="搜索" src="./imgs/search.png" />
+					<img id="menu" alt="导航/菜单" src="./imgs/menus.png" />
+				</div>
 			</div>
 		</div>
 		<div class="page">
 			<div class="warp">
+
 				<div class="left">
-					<div class="comment">
-						<div class="icon">
-							<img src="https://wx1.sinaimg.cn/orj360/006aPoZjly1g7wyhtvo2sj30cx0d2dfz.jpg" />
-						</div>
-					</div>
+					<div class="new">
+							<div class="item">
+								<div class="title">最新套图</div>
+								<div class="imgs">
+									<img referrerpolicy="no-referrer" src="https://wx1.sinaimg.cn/orj360/006aPoZjly1g7wyhtvo2sj30cx0d2dfz.jpg" />
+								</div>
+								<div class="imgs">
+									<img referrerpolicy="no-referrer" src="https://wx1.sinaimg.cn/orj360/006aPoZjly1g7wyhtvo2sj30cx0d2dfz.jpg" />
+								</div>
+								<div class="imgs">
+									<img referrerpolicy="no-referrer" src="https://wx1.sinaimg.cn/orj360/006aPoZjly1g7wyhtvo2sj30cx0d2dfz.jpg" />
+								</div>
+								<div class="imgs">
+									<img referrerpolicy="no-referrer" src="https://wx1.sinaimg.cn/orj360/006aPoZjly1g7wyhtvo2sj30cx0d2dfz.jpg" />
+								</div>
+								<div class="imgs">
+									<img referrerpolicy="no-referrer" src="https://wx1.sinaimg.cn/orj360/006aPoZjly1g7wyhtvo2sj30cx0d2dfz.jpg" />
+								</div>
+							</div>
+				    </div>
 				</div>
 				<div class="right">
-					
+					<div class="item">
+						1212
+					</div>
 				</div>
+
 			</div>
 		</div>
 		<div class="foot">
@@ -103,22 +138,22 @@
 					</div>
 				</div>
 				<div class="beian">
-					 <img src="./imgs/gab.png" /><a href="">闽公网安备 25235325345252号</a><a href="">闽ICP备1655587号</a>
+					 <img src="./imgs/gab.png" alt="闽公网安备 25235325345252号" /><a href="">闽公网安备 25235325345252号</a><a href="">闽ICP备1655587号</a>
 				</div>
 			</div>
 		</div>
 
 		<div class="snackbar">
 			<div class="feedback"  >
-                <a href="./feedback.html" alt="反馈/建议" ><img src="./imgs/feed.png" alt="反馈/建议"></a>
+                <a href="https://support.qq.com/products/95514" alt="反馈/建议" ><img src="./imgs/feed.png" alt="反馈/建议"></a>
             </div>
-			<div class="top">
-				<img src="./imgs/up.png" alt="返回顶部" >
+			<div class="top" @click="goTop()" >
+				<img src="./imgs/up.png"  alt="返回顶部" >
 			</div>
 		</div>
-		
+	</div>
 
-<script type="text/javascript" src="./scripts/feedback.js"></script> 
+<script type="text/javascript" src="./scripts/index.js"></script> 
 
 </body>
 </html>
