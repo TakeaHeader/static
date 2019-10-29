@@ -5,7 +5,8 @@
 
 	.head{background-color: white;box-shadow: 1px 1px 2px #cdc8c8;height: 60px;position: fixed;width: 100%;top: 0;left: 0;right: 0;z-index: 999;}
 	.head > .warp{overflow: hidden;}
-	.head > .warp li{float: left;margin-left: 35px;padding:20px 10px;color: #555555;}
+	.head > .warp li{float: left;margin-left: 35px;}
+	.head > .warp li > a{padding:20px 10px;color: #555555;text-align: center;line-height: 60px;}
 	.head > .warp li:hover{cursor: pointer;background-color: #FFF12A;color: black;font-weight: bold;}
 	.head > .warp > .home{float: left;margin-right: 30px;text-decoration: none;color:#555555;display: flex; display: block;overflow: hidden;cursor: pointer;}
 	.head > .warp > .home > .logo{display: inline-block;}
@@ -54,7 +55,9 @@
 	.warp{width: 100%;margin: 0 auto;font-size: -7em;}
 	.head{background-color: white;box-shadow: 1px 1px 2px #cdc8c8;height: 60px;position: fixed;width: 100%;top: 0;left: 0;right: 0;z-index: 999;}
 	.head > .warp{overflow: hidden;}
-	.head > .warp >li{display: none;}
+	.head > .warp > .links{margin-top: 60px;display: block;width: 100%;background-color: white;box-shadow: 4px 3px 4px black;}
+	.head > .warp li{display: block;border-bottom: 1px solid #eee;margin: 0 20px;}
+	.head > .warp li > a {display: block;padding: 10px 0;color: #555555;text-align: center;font-size: 14px;}
 	.head > .warp > .home{float: left;margin-left: 15px;margin-right: 30px;text-decoration: none;color:#555555;display: flex; display: block;overflow: hidden;cursor: pointer;}
 	.head > .warp > .home > .logo{display: inline-block;}
 	.head > .warp > .home > .logo > img{padding: 8px 0;width: 42px;height: 42px;}

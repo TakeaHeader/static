@@ -6,7 +6,6 @@
 		data:data,
 		methods:func,
 		created:function(){
-			debugger;
 			var timer = setInterval(function(){
 
 			},2000);
